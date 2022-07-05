@@ -1,4 +1,3 @@
-
 import { Button, StyleSheet, Text, View, Alert, Platform } from 'react-native';
 
 export default function App() {
@@ -11,17 +10,15 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    display: "flex",
+    flexDirection: "column",
     backgroundColor: '#fff',
-    alignItems: 'center',
-    alignContent: 'center',
-    justifyContent: 'center',
-    textAlign: 'center',
-    padding: "10px",
+    padding: "15px",
+    fontFamily: "whitneymedium"
   },
   header: {
     fontSize: 30,
-    fontWeight: 'bold',
+    fontFamily: "whitneysemibold",
     marginTop: "5px",
     marginBottom: "5px",
   },
